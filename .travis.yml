@@ -1,9 +1,6 @@
 language: c
-
 os: linux
-
-script: make test
-
-sudo: required
-
-install: make dep
+compiler:
+  - gcc
+install: sudo apt-get install check
+script: make && make test
