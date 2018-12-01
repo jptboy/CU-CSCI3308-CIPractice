@@ -1,6 +1,6 @@
 os: linux
 
-script: make clean test
+script: make test
 
 sudo: required
 
